@@ -197,8 +197,8 @@ def confusion_mat_plot(y_test, y_pred):
     ax.set_yticks([0.25, 0.75])
     ax.set_xticklabels(['Negative','Positive'])
     ax.set_yticklabels(['Negative','Positive'])
-    ax.set_xlabel('Predicted Label')
-    ax.set_ylabel('True Label')
+    ax.set_xlabel('True Label')
+    ax.set_ylabel('Predicted Label')
     fig.colorbar(im)
     plt.show()
     
